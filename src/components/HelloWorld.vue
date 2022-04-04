@@ -79,7 +79,7 @@ export default {
             await fetch(request);
             this.getData();
         },
-        async findNote(id) {
+         findNote(id) {
             fetch(`http://192.168.1.38/note_cy/tien/findById.php?id=${id}`, {
                     method: 'GET',
                 })
